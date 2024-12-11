@@ -19,16 +19,18 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.1.0</version>
-                <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>com.example.App</mainClass>
-                        </manifest>
-                    </archive>
-                </configuration>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.9.1</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>site</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
+
+
 </project>
