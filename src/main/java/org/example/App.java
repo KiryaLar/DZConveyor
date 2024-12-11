@@ -17,7 +17,6 @@ public class App {
                 "</body>\n" +
                 "</html>";
 
-
         String filePath = "target/site/index.html";
 
         try (FileWriter writer = new FileWriter(filePath)) {
