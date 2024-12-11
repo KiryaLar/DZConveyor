@@ -1,7 +1,6 @@
 package org.example;
 
 import java.io.FileWriter;
-import java.io.IO;
 import java.io.IOException;
 
 public class App {
